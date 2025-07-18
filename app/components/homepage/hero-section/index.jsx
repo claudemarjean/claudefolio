@@ -4,7 +4,7 @@ import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
@@ -53,20 +53,8 @@ function HeroSection() {
             >
               <FaFacebook size={30} />
             </Link>
-            <Link
-              href={personalData.leetcode}
-              target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
-            >
-              <SiLeetcode size={30} />
-            </Link>
-            <Link
-              href={personalData.twitter}
-              target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
-            >
-              <FaTwitterSquare size={30} />
-            </Link>
+            
+           
           </div>
 
           <div className="flex items-center gap-3">
@@ -112,26 +100,57 @@ function HeroSection() {
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
-                <span className=" text-white">skills:</span>
+                <span className="text-white">skills:</span>
                 <span className="text-gray-400">{`['`}</span>
-                <span className="text-amber-300">React</span>
+                <span className="text-amber-300">HTML</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NextJS</span>
+                <span className="text-amber-300">CSS</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Redux</span>
+                <span className="text-amber-300">JavaScript</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Express</span>
+                <span className="text-amber-300">PHP</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NestJS</span>
+                <span className="text-amber-300">Python</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MySql</span>
+                <span className="text-amber-300">React.js</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MongoDB</span>
+                <span className="text-amber-300">Redux.js</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Angular.js</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">D3.js</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">jQuery</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Symfony</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">CodeIgniter</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Firebase</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Docker</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">AWS</span>
-                <span className="text-gray-400">{"'],"}</span>
+                <span className="text-amber-300">Redis</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">WebSocket</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Webhook</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">API REST</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">MySQL</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Git</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">WordPress</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Elementor</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">UML</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Trello</span>
+                <span className="text-gray-400">{"']"}</span>
+
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">hardWorker:</span>
