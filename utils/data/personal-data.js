@@ -1,7 +1,7 @@
 export const personalData = {
   name: "Marjean Claude",
   profile: '/profile.jpg',
-  designation: "Ingénieur Logiciel",
+  designation: "l’innovation technologique",
   description: "Ingénieur Logiciel et Développeur Full-Stack, je suis passionné par la conception et l’optimisation de solutions numériques. Avec une solide expérience en développement web. Curieux et ouvert, j’aime relever de nouveaux défis pour créer des solutions innovantes et performantes.",
   email: 'marjean.8888@gmail.com',
   phone: '+261 34 50 488 88',
