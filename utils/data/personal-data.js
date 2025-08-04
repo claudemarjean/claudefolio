@@ -10,6 +10,6 @@ export const personalData = {
   facebook: 'https://web.facebook.com/claude.marjean/',
   linkedIn: 'https://mg.linkedin.com/in/marjean-claude-andriamahatradraide-65873b246',
   stackOverflow: '',
-  devUsername: "said7388",
-  resume: "https://drive.google.com/file/d/1TVGb7mJauYeaE1XwiD5N5jPVxevmDnV5/view?usp=sharing"
+  devUsername: "C109",
+  resume: "https://drive.google.com/file/d/1TVGb7mJauYeaE1XwiD5N5jPVxevmDnV5/view"
 }
