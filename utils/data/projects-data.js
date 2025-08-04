@@ -6,7 +6,7 @@ export const projectsData = [
         tools: ['Vue.js 3', 'CodeIgniter', 'PHP Ratchet', 'WebSocket','Nginx'],
         role: 'Développeur Fullstack',
         code: '',
-        demo: 'https://manao.eu/',
+        demo: 'https://manao.eu/fr/fiche-technique-texteur',
     },
     {
         id: 2,
@@ -25,20 +25,51 @@ export const projectsData = [
         role: 'Webmaster',
         code: '',
         demo: 'https://www.mactoo.fr/',
+    },
+    {
+        id: 4,
+        name: 'Licences utilisateurs',
+        description: " Conception et développement d’un module destiné aux administrateurs sur une plateforme interne, permettant de gérer les droits d’accès des utilisateurs sur différents logiciels du système. Réalisation également d’une API dédiée, afin que les autres applications de l’écosystème puissent interagir de manière sécurisée avec ce système de gestion des autorisations.",
+        tools: ['CodeIgniter', 'JQuery', 'Bootstrap'],
+        role: 'Développeur full-stack',
+        code: '',
+        demo: 'https://manao.eu/fr/logiciels-plateforme',
+    },
+    {
+        id: 5,
+        name: 'API SMS',
+        description: "Développement dans le cadre de la transition d’un système interne de gestion des SMS, avec le remplacement d’une API SOAP existante par une API REST plus moderne. Cela a permis de garantir la continuité des opérations tout en améliorant l’interopérabilité avec des services tiers de messagerie.",
+        tools: ['Laravel', 'Webhoock', 'allmysms'],
+        role: 'Développeur backend',
+        code: '',
+        demo: 'https://www.allmysms.com/',
+    },
+    {
+        id: 6,
+        name: 'Manao Gescom',
+        description: "Participation au développement d’un module de gestion des documents commerciaux, plus précisément sur le volet livraison. Ce module permet de créer, consulter, filtrer et exporter des bons de livraison liés aux clients, en s’intégrant dans le processus global de vente (devis, commandes, factures). L’objectif principal était d’assurer la traçabilité, la fiabilité des livraisons et leur intégration fluide dans le cycle commercial de l’entreprise.",
+        tools: ['CodeIgniter', 'Javascript ES6', 'Bootstrap'],
+        role: 'Développeur full-stack',
+        code: '',
+        demo: 'https://manao.eu/fr/fiche-technique-gescom',
+    },
+    {
+        id: 7,
+        name: 'Quiz Marvel',
+        description: "Développement d’un site de quiz interactif en React.js destiné aux fans de l’univers Marvel, avec questions à choix multiples, résultats commentés par les héros et système de classement dynamique selon les performances. Utilisation des Hooks pour la gestion de l’état et de la logique applicative.",
+        tools: ['React.js', 'Javascript ES6', 'Firebase'],
+        role: 'Développeur front-end',
+        code: '',
+        demo: 'https://marvel-quiz-b896b.firebaseapp.com/',
+    },
+    {
+        id: 8,
+        name: 'Manao Comptabilité',
+        description: "Conception et développement d’un module de saisie comptable multi-devises avec gestion intégrée des pièces justificatives via GED. Optimisation de l’expérience utilisateur pour les écritures comptables, amélioration du suivi client, et mise en place d’un système de droits de communication pour faciliter la déclaration fiscale.",
+        tools: ['Angular.js', 'CodeIgniter', 'Bootstrap'],
+        role: 'Développeur full-stack',
+        code: '',
+        demo: 'https://manao.eu/fr/fiche-technique-comptabilite',
     }
    
 ];
-
-
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-// },
